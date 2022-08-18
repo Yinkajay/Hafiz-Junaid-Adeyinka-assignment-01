@@ -1,0 +1,32 @@
+body{
+  background-image: url(https://images.pexels.com/photos/313782/pexels-photo-313782.jpeg?cs=srgb&dl=pexels-quintin-gellar-313782.jpg&fm=jpg);
+  image-rendering: auto;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: rgb(31, 175, 158);
+  margin-left: 30px;
+  margin-right: 30px;
+}
+body{
+  font-family: 'Jost', sans-serif;
+}
+div{
+  margin-top: 20px;
+}
+
+nav{
+  background-color: rgb(223, 239, 240);
+  font-size: 1.3em;
+  tex
+  text-align:center;
+  height: 30px;
+}
+
+label{
+  display: inline-block;
+  width: 150px;
+}
