@@ -11,3 +11,23 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+nav{
+  background-color: rgb(223, 239, 240);
+  font-size: 1.3em;
+  text-align: center;
+  height: 40px;
+}
+
+nav a{
+  padding: 10px 15px;
+}
+
+h1{
+  font-family: 'Nunito', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  background: rgb(31, 175, 158);
+  margin-left: 30px;
+  margin-right: 30px;
+}
