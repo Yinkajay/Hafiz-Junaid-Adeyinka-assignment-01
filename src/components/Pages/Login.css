@@ -1,0 +1,14 @@
+.login-content{
+  margin: 0 30px; 
+}
+
+button{
+  margin-top: 10px;
+  padding: 7px 10px;
+  background-color: rgb(31, 175, 158);
+  border: none;
+}
+
+button:hover{
+  background-color: rgb(0, 150, 158);
+}

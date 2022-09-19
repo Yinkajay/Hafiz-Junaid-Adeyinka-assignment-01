@@ -1,17 +1,18 @@
 import React from 'react'
-  
+import { NavLink } from 'react-router-dom'
+
 
 const Navbar = () => {
   return (
     <div>
       <nav>
-        <a href="/Home Page(index).html">Home</a>
-        <a href="/Register Page.html"> Register </a>
-        <a href="/Calculator.html"> Calculator</a>
-        <a href="/Login Page.html">Login</a>
+        <NavLink to='/'><a>Home</a></NavLink>
+        <NavLink to='/Register'><a>Register</a></NavLink>
+        <NavLink to='/Calculator'><a>Calculator</a></NavLink>
+        <NavLink to='/Login'><a>Login</a></NavLink>
       </nav>
     </div>
   )
 }
-
+  
 export default Navbar

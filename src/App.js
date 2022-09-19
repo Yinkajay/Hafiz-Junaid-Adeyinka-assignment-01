@@ -1,11 +1,27 @@
 import './App.css';
-import { Router } from 'react-router-dom';
+import { Route, NavLink, Routes } from 'react-router-dom';
+import Home from './components/Pages/Home';
+import Navbar from './components/UI/Navbar';
+import Register from './components/Pages/Register';
+import Login from './components/Pages/Login';
+import Calculator from './components/Pages/Calculator';
+
+
+
+// 
+
 
 function App() {
   return (
-    <Router>
-    
-    </Router>
+    <>
+      <Navbar />
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/Register' element={<Register/>}/>
+        <Route path='/Calculator' element={<Calculator/>}/>
+        <Route path='/Login' element={<Login/>}/>      
+      </Routes>
+    </>
   );
 }
 /* <Navbar/>
